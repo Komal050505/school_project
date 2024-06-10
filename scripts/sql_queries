@@ -1,0 +1,13 @@
+
+
+CREATE TABLE school_data (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(50) ,
+    rank VARCHAR(50),
+    fees INTEGER
+
+);
+
+select * from public.school
+
+insert into public.school_data(id, name, rank, fees ) values(1,'primary','50',20000)
